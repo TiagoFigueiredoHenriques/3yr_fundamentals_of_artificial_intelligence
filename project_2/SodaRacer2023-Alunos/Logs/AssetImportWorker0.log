@@ -1,0 +1,359 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.38f1 (8f5fde82e2dc) revision 9396190'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 7969 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/tiago/OneDrive/Documentos/3yr_fundamentals_of_artificial_intelligence/project_2/SodaRacer2023-Alunos
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51615
+Successfully changed project path to: C:/Users/tiago/OneDrive/Documentos/3yr_fundamentals_of_artificial_intelligence/project_2/SodaRacer2023-Alunos
+C:/Users/tiago/OneDrive/Documentos/3yr_fundamentals_of_artificial_intelligence/project_2/SodaRacer2023-Alunos
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tiago/OneDrive/Documentos/3yr_fundamentals_of_artificial_intelligence/project_2/SodaRacer2023-Alunos/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX350 (ID=0x1c94)
+    Vendor:   
+    VRAM:     1979 MB
+    Driver:   26.21.14.4280
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001968 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (762ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1059ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.8 MB.
+System memory in use after: 71.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 2.343800 ms (FindLiveObjects: 0.103200 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.119300 ms  DeleteObjects: 0.067000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/EvolvingCars/TP2/Meta1/Elitism.cs
+  artifactKey: Guid(c9e2a69476fa345d2aa8cffba43b10ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/TP2/Meta1/Elitism.cs using Guid(c9e2a69476fa345d2aa8cffba43b10ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd36fe943eb07aae7bbfda88464517c') in 0.037563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015134 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/ObstacleController.cs
+  artifactKey: Guid(a410ff32844b44bbab8ad154e07b80f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/ObstacleController.cs using Guid(a410ff32844b44bbab8ad154e07b80f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e488b7fbe6fa68f3426613bf65d17a3a') in 0.009129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003943 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/PathBuilder.cs
+  artifactKey: Guid(e0a4c1e3c024f46b6bb444591f9950fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/PathBuilder.cs using Guid(e0a4c1e3c024f46b6bb444591f9950fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d0171a31a27a5e6b26d358622679fd') in 0.008917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016197 seconds.
+  path: Assets/EvolvingCars/Car/Prefabs/RoadButtonPrefab.prefab
+  artifactKey: Guid(1e042075e3fc3456f8cdc1c2ebee097d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Prefabs/RoadButtonPrefab.prefab using Guid(1e042075e3fc3456f8cdc1c2ebee097d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183ee5f328dc6feea915594ab37e800c') in 0.051765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018799 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/CarSampleController.cs
+  artifactKey: Guid(5b7f6b0b763b1446b9871fffb753082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/CarSampleController.cs using Guid(5b7f6b0b763b1446b9871fffb753082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d69acc0d38256b9980f9e055454ce5a') in 0.007799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014756 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/EvaluationGrid.cs
+  artifactKey: Guid(542a11e6c8af1493287c66808e353a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/EvaluationGrid.cs using Guid(542a11e6c8af1493287c66808e353a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5919963072709107542529597007d2d6') in 0.007923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018875 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/RoadButtonsController.cs
+  artifactKey: Guid(ab6957c37e7024bafa1779e98b8c4cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/RoadButtonsController.cs using Guid(ab6957c37e7024bafa1779e98b8c4cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4443cf4db9e86372d91c219834997366') in 0.007621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004182 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/DrawJoint.cs
+  artifactKey: Guid(63088d630a9944b6fbdc9884d4eb5572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/DrawJoint.cs using Guid(63088d630a9944b6fbdc9884d4eb5572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0895b67fa385001d69ed43d4bc76fc') in 0.007804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004270 seconds.
+  path: Assets/EvolvingCars/Commons/ThirdParty/ColliderCreator.cs
+  artifactKey: Guid(7dea23bd49c864809abc6cb21e8e593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/ThirdParty/ColliderCreator.cs using Guid(7dea23bd49c864809abc6cb21e8e593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104f4050d4f72e295d24ccb7eadfbdad') in 0.008256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004806 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/CarVectorFloatPhenotypeEntity.cs
+  artifactKey: Guid(d78a314b54a7f4e53841a51d8f5fbc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/CarVectorFloatPhenotypeEntity.cs using Guid(d78a314b54a7f4e53841a51d8f5fbc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57215c7a2e6662a37674ad136c7b1701') in 0.008566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011779 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/CarController.cs
+  artifactKey: Guid(41dddcc923a954293abb187be55606ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/CarController.cs using Guid(41dddcc923a954293abb187be55606ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546cf29fddd2bd8fda8bcf69336687e5') in 0.009128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004847 seconds.
+  path: Assets/EvolvingCars/Commons/ThirdParty/Triangulator.cs.cs
+  artifactKey: Guid(cfb73ad9821214de092ec1885d2ebd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/ThirdParty/Triangulator.cs.cs using Guid(cfb73ad9821214de092ec1885d2ebd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb35de262ac86d2293155733a54c250e') in 0.007456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014891 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/TerminationConditions/GenerationsTermination.cs
+  artifactKey: Guid(26ed13a0928fa47c68f83e5c5421c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/TerminationConditions/GenerationsTermination.cs using Guid(26ed13a0928fa47c68f83e5c5421c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4368004916077c0aa432a96e79844313') in 0.007871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004240 seconds.
+  path: Assets/EvolvingCars/Commons/FollowChromosomeCam.cs
+  artifactKey: Guid(5d40cb6d898454c7fa1273bdae7d2b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/FollowChromosomeCam.cs using Guid(5d40cb6d898454c7fa1273bdae7d2b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5866809f7c44e1a7e078a5aaece1e9cc') in 0.007988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020661 seconds.
+  path: Assets/EvolvingCars/Commons/Sprites/square.png
+  artifactKey: Guid(cbaea2a7772674364981b187ef634b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/Sprites/square.png using Guid(cbaea2a7772674364981b187ef634b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f923ac9deffec9eeb09adac137ca689c') in 0.111267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025095 seconds.
+  path: Assets/EvolvingCars/TP2/GeneticAlgorithmConfigurations.cs
+  artifactKey: Guid(8d95fcef0b5074135a7598cfa491afde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/TP2/GeneticAlgorithmConfigurations.cs using Guid(8d95fcef0b5074135a7598cfa491afde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca60288eb801d080a8571751fc723780') in 0.007922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007331 seconds.
+  path: Assets/EvolvingCars/Commons/EvaluateBest.cs
+  artifactKey: Guid(661df7daffe9e4407a6ab020b84ade16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/EvaluateBest.cs using Guid(661df7daffe9e4407a6ab020b84ade16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef84ea406c1d2a328da1e703fcf278d') in 0.008168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006555 seconds.
+  path: Assets/EvolvingCars/Commons/PrefabPool.cs
+  artifactKey: Guid(022a1782cff574c98bff9f467025e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/PrefabPool.cs using Guid(022a1782cff574c98bff9f467025e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ee3c7832f5a04c7e813116eb77dd5a') in 0.008570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007257 seconds.
+  path: Assets/EvolvingCars/Commons/BitStringChromosome.cs
+  artifactKey: Guid(e9da751a7e7dc483ba78a87e39f92c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/BitStringChromosome.cs using Guid(e9da751a7e7dc483ba78a87e39f92c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698bf2aef3c651617aefb4a733874cb0') in 0.008767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014416 seconds.
+  path: Assets/EvolvingCars/Commons/SampleControllerBase.cs
+  artifactKey: Guid(9fbd6082b971a42b496b409abdee59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/SampleControllerBase.cs using Guid(9fbd6082b971a42b496b409abdee59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdabf17332d6ca85078e0bb108b6613b') in 0.007934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011329 seconds.
+  path: Assets/EvolvingCars/Commons/CameraExpander.cs
+  artifactKey: Guid(ba2e6d5d8e18542b295518c809a47f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/CameraExpander.cs using Guid(ba2e6d5d8e18542b295518c809a47f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6c62bfbbe6f611654dea58e734e87f') in 0.007950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025099 seconds.
+  path: Assets/EvolvingCars/TP2/Meta1/UniformCrossover.cs
+  artifactKey: Guid(960a3091c8c6843d88274229bc7d2095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/TP2/Meta1/UniformCrossover.cs using Guid(960a3091c8c6843d88274229bc7d2095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bbca8f477a140f8e0e714c8fa9a689') in 0.007661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004556 seconds.
+  path: Assets/EvolvingCars/Commons/Sprites/icon.png
+  artifactKey: Guid(27c2df0c4079445ce8d9bf02f7e2633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/Sprites/icon.png using Guid(27c2df0c4079445ce8d9bf02f7e2633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c353ac461407e9af2b45598791976a') in 0.025649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005345 seconds.
+  path: Assets/EvolvingCars/TP2/Meta1/GaussianMutation.cs
+  artifactKey: Guid(66a85ffc4f2d7453786b277f816b4dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/TP2/Meta1/GaussianMutation.cs using Guid(66a85ffc4f2d7453786b277f816b4dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05feb063064053129895491f793ac290') in 0.008440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004291 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/SimulationGrid.cs
+  artifactKey: Guid(438583b4dc647441894dbf8c816fcdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/SimulationGrid.cs using Guid(438583b4dc647441894dbf8c816fcdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae11698d7a4420b9ed45a2e8df99652') in 0.008107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008743 seconds.
+  path: Assets/EvolvingCars/Commons/Sprites/pin.png
+  artifactKey: Guid(e6b7392b18344407f897e44a4f1231bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/Sprites/pin.png using Guid(e6b7392b18344407f897e44a4f1231bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c2c24228056426b3d1c7c056a59d0c') in 0.019556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016320 seconds.
+  path: Assets/Editor/ExportPackage.cs
+  artifactKey: Guid(283675f58113a40338dd7045b800bf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/ExportPackage.cs using Guid(283675f58113a40338dd7045b800bf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ee52e088db0a5a6dc29aad0ce3fc88') in 0.008112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016740 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/CarBinaryChromosome.cs
+  artifactKey: Guid(cf8b7839ae7814baea86684246c4748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/CarBinaryChromosome.cs using Guid(cf8b7839ae7814baea86684246c4748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929bf392444be3ab03fc0a36d473f8aa') in 0.008339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004924 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/CarVectorPhenotypeEntity.cs
+  artifactKey: Guid(dfb8d5e9878b849da8b5a6d0f960c7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/CarVectorPhenotypeEntity.cs using Guid(dfb8d5e9878b849da8b5a6d0f960c7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5d5ec616fcc7b959477f54481405fc') in 0.007870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009473 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/RoadController.cs
+  artifactKey: Guid(7f874d20aa6354cf4997a6d5d3ba9705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/RoadController.cs using Guid(7f874d20aa6354cf4997a6d5d3ba9705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c34b96da744bd2e51b3f1d976d9f28') in 0.007653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012048 seconds.
+  path: Assets/EvolvingCars/Commons/Sprites/circle.png
+  artifactKey: Guid(be20f2319fab84b6fb60a11dc91c0a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/Sprites/circle.png using Guid(be20f2319fab84b6fb60a11dc91c0a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2c426bca060a91240188a30b197a9f') in 0.017599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021423 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/TerminationConditions/CarTermination.cs
+  artifactKey: Guid(4b93469fc1794495cb3ab33fb2d62171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/TerminationConditions/CarTermination.cs using Guid(4b93469fc1794495cb3ab33fb2d62171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911d75917f3252e0acc2900702ae52ca') in 0.007869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010476 seconds.
+  path: Assets/EvolvingCars/Commons/SampleContainer.cs
+  artifactKey: Guid(5e48446a463a9419ebb173f16ce45f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/SampleContainer.cs using Guid(5e48446a463a9419ebb173f16ce45f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adff7c532695955effe9ba82ef108bd') in 0.008656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004304 seconds.
+  path: Assets/EvolvingCars/TP2/Meta1/Roulette.cs
+  artifactKey: Guid(17b43d73bfed14d6394ad332d1ec94dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/TP2/Meta1/Roulette.cs using Guid(17b43d73bfed14d6394ad332d1ec94dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7904792e71f491a05636a8141e9eae7f') in 0.007625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004449 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/CarSampleConfig.cs
+  artifactKey: Guid(6a8b820e13ba841d08d2a7b62050daed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/CarSampleConfig.cs using Guid(6a8b820e13ba841d08d2a7b62050daed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a88252bad021e571d5585da8e0ce19') in 0.007726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018988 seconds.
+  path: Assets/EvolvingCars/Commons/Sprites/logo.png
+  artifactKey: Guid(76a203e42f9e647ab95c2c2d427962f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Commons/Sprites/logo.png using Guid(76a203e42f9e647ab95c2c2d427962f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb31d2effce9ed335687bed005ef705') in 0.023360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017754 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/CarChromosome.cs
+  artifactKey: Guid(45cd13fff89d54f8cacf4eb853cd973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/CarChromosome.cs using Guid(45cd13fff89d54f8cacf4eb853cd973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133ad4e8fe884322bd4446aff760b465') in 0.008839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004160 seconds.
+  path: Assets/EvolvingCars/Car/Scripts/DrawPolygon.cs
+  artifactKey: Guid(97e38231ba038459a94a90efe029de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvolvingCars/Car/Scripts/DrawPolygon.cs using Guid(97e38231ba038459a94a90efe029de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6447fbfa677409f1557403b73a4ebdeb') in 0.007714 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

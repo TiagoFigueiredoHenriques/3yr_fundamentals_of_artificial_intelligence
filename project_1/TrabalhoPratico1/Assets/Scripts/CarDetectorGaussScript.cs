@@ -1,0 +1,35 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Linq;
+using System;
+
+public class CarDetectorGaussScript : CarDetectorScript {
+
+    public float stdDev = 1.0f; // ellipsis with normal distribution
+    public float mean = 0.0f; // ellipsis with normal distribution
+
+    // Get gaussian output value
+    public override float GetOutput()
+    {
+        if (ApplyLimits && (output < MinX || output > MaxX))
+        {
+            output = 0.0f;
+        }
+
+        double a = (1.0f / (stdDev * Math.Sqrt(2f * Math.PI)));
+        double e = (-1.0f / 2.0f) * Math.Pow((output - mean) / stdDev, 2.0f);
+        output = (float)(a * Math.Pow(Math.E, e));
+
+        if (ApplyThresholds && output < MinY)
+        {
+            output = MinY;
+        }
+
+        if (ApplyThresholds && output > MaxY)
+        {
+            output = MaxY;
+        }
+
+        return output;
+    }
+}

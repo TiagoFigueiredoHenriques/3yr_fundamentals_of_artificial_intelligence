@@ -10,10 +10,6 @@ namespace GeneticSharp.Runner.UnityApp.Commons
 {
     public class UniformCrossover : ICrossover
     {
-  
-
-        
-
         public int ParentsNumber { get; private set; }
 
         public int ChildrenNumber { get; private set; }
@@ -42,12 +38,22 @@ namespace GeneticSharp.Runner.UnityApp.Commons
         {
             IChromosome parent1 = parents[0];
             IChromosome parent2 = parents[1];
-            IChromosome offspring1 = parent1.CreateNew();
-            IChromosome offspring2 = parent2.CreateNew();
+            IChromosome offspring1 = parent1.Clone();
+            IChromosome offspring2 = parent2.Clone();
 
             //YOUR CODE HERE
 
-
+            if (RandomizationProvider.Current.GetDouble() <= crossoverProbability)
+            {
+                for (int i = 0; i < parent1.Length; i++)
+                {
+                    if (RandomizationProvider.Current.GetDouble() >= 0.5)
+                    {
+                        offspring1.ReplaceGene(i, parent2.GetGene(i));
+                        offspring2.ReplaceGene(i, parent1.GetGene(i));
+                    }
+                }
+            }
 
             return new List<IChromosome> { offspring1, offspring2 };
             

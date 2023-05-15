@@ -14,11 +14,6 @@ public class Roulette : SelectionBase
     {
     }
 
-
-    
-  
-
-
     protected override IList<IChromosome> PerformSelectChromosomes(int number, Generation generation)
     {
 
@@ -26,6 +21,35 @@ public class Roulette : SelectionBase
         IList<IChromosome> parents = new List<IChromosome>();
 
         //YOUR CODE HERE
+
+        double sumFitness = 0.0;
+
+        for (int i = 0; i < population.Count; i++)
+        {
+            sumFitness += population[i].Fitness;
+
+        }
+
+        int index;
+        double partial, pointer;
+
+        for (int i = 0; i < number; i++)
+        {
+            pointer = RandomizationProvider.Current.GetDouble();
+
+            index = 0;
+            partial = 0.0;
+
+            while (partial <= pointer)
+            {
+                partial += (population[index].Fitness / sumFitness);
+                index++;
+
+            }
+
+            parents.Add(population[index - 1]);
+
+        }
 
         return parents;
     }
